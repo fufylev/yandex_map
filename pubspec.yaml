@@ -1,0 +1,34 @@
+name: map_test
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  home:
+    path: modules/home
+  search:
+    path: modules/search
+  map:
+    path: modules/map
+  profile:
+    path: modules/profile
+
+  auto_route: ^8.3.0
+  yandex_maps_mapkit: ^4.8.3-beta
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  auto_route_generator: ^8.1.0
+  build_runner: ^2.4.6
+flutter:
+  uses-material-design: true

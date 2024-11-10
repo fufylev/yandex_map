@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    avoid_relative_lib_imports: true
+    always_use_package_imports: true
+    prefer_void_to_null: true
+    always_declare_return_types: true
+    avoid_empty_else: true
+    avoid_unused_constructor_parameters: true
+    cancel_subscriptions: true
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+  errors:
+    invalid_annotation_target: ignore
